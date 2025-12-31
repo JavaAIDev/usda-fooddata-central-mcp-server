@@ -13,7 +13,7 @@
 
   <groupId>com.javaaidev</groupId>
   <artifactId>usda-fooddata-central-mcp-server</artifactId>
-  <version>0.9.1</version>
+  <version>1.0.0</version>
   <name>USDA FDC MCP Server</name>
   <description>USDA FoodData Central MCP Server</description>
 
