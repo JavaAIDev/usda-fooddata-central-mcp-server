@@ -15,7 +15,7 @@ The config below starts the server using a container image.
         "run",
         "-i",
         "-e",
-        "UDSA_FDC_API_KEY=YOUR_AMAP_API_KEY",
+        "UDSA_FDC_API_KEY=YOUR_API_KEY",
         "ghcr.io/javaaidev/usda-fooddata-central-mcp-server:1.0.0"
       ]
     }
