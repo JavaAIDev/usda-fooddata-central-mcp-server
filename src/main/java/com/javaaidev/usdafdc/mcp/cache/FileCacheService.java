@@ -24,7 +24,7 @@ public class FileCacheService {
       Files.createDirectories(cacheDir);
       LOGGER.info("Cache dir is {}", cacheDir);
     } catch (IOException e) {
-      LOGGER.error("Failed to create cache dir", e);
+      LOGGER.error("Failed to create cache dir: {}", cacheDir, e);
     }
   }
 

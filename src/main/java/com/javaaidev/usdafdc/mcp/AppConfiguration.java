@@ -25,7 +25,7 @@ public class AppConfiguration {
   }
 
   @Bean
-  public FileCacheService fileCacheAspect() {
+  public FileCacheService fileCacheService() {
     return new FileCacheService();
   }
 
